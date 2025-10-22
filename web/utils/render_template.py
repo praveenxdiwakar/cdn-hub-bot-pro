@@ -70,7 +70,7 @@ async def render_page(id: str, secure_hash: str, src: str = None) -> str:
         return "Template Error"
 
     # Step 6: Prepare file name safely
-    file_name = file_data.file_name.replace("_", " ") if file_data.file_name else f"AV_File_{id}.mkv"
+    file_name = file_data.file_name.replace("_", " ") if file_data.file_name else f"XD_File_{id}.mkv"
 
     # Step 7: Render template with values
     return template.render(
@@ -78,13 +78,14 @@ async def render_page(id: str, secure_hash: str, src: str = None) -> str:
         file_url=src,
         file_size=file_size,
         file_unique_id=file_data.unique_id,
-        template_ne=avbotz_template.NAME,
-        disclaimer=avbotz_template.DISCLAIMER,
-        report_link=avbotz_template.REPORT_LINK,
-        colours=avbotz_template.COLOURS,
+        template_ne=xdbotz_template.NAME,
+        disclaimer=xdbotz_template.DISCLAIMER,
+        report_link=xdbotz_template.REPORT_LINK,
+        colours=xdbotz_template.COLOURS,
                                     )
 #Dont Remove My Credit @CloudDroid this code writen by @clouddroid & Praveen(𝕏Ð)Diwakar
 #This Repo Is By @CDNHubs & @TechPraveen
 # For Any Kind Of Error Ask Us In Support Group @CDNChats
+
 
 
