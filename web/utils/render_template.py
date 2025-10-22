@@ -11,9 +11,9 @@ from utils import get_size
 from web.utils.file_properties import get_file_ids
 from web.server.exceptions import InvalidHash
 
-# Dont Remove My Credit @AV_BOTz_UPDATE 
-# This Repo Is By @BOT_OWNER26 
-# For Any Kind Of Error Ask Us In Support Group @AV_SUPPORT_GROUP
+#Dont Remove My Credit @CloudDroid this code writen by @clouddroid & Praveen(𝕏Ð)Diwakar
+#This Repo Is By @CDNHubs & @TechPraveen
+# For Any Kind Of Error Ask Us In Support Group @CDNChats
 
 async def render_page(id: str, secure_hash: str, src: str = None) -> str:
     # Step 1: Fetch Telegram file and metadata
@@ -83,6 +83,7 @@ async def render_page(id: str, secure_hash: str, src: str = None) -> str:
         report_link=avbotz_template.REPORT_LINK,
         colours=avbotz_template.COLOURS,
                                     )
-# Dont Remove My Credit @AV_BOTz_UPDATE 
-# This Repo Is By @BOT_OWNER26 
-# For Any Kind Of Error Ask Us In Support Group @AV_SUPPORT_GROUP
+#Dont Remove My Credit @CloudDroid this code writen by @clouddroid & Praveen(𝕏Ð)Diwakar
+#This Repo Is By @CDNHubs & @TechPraveen
+# For Any Kind Of Error Ask Us In Support Group @CDNChats
+
