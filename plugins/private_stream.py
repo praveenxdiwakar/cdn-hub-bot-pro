@@ -6,7 +6,7 @@ from info import URL, BOT_USERNAME, BIN_CHANNEL, CHANNEL, PROTECT_CONTENT, FSUB,
 from database.users_db import db
 from web.utils.file_properties import get_hash
 from utils import get_size
-from plugins.avbot import av_verification, is_user_allowed, is_user_joined
+from plugins.xdbot import xd_verification, is_user_allowed, is_user_joined
 from Script import script
 
 @Client.on_message(filters.private & (filters.document | filters.video | filters.audio), group=4)
