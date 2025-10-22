@@ -40,7 +40,7 @@ async def private_receive_handler(c: Client, m: Message):
     file_size = get_size(file_id.file_size)
 
     if not await db.has_premium_access(user_id):
-        verified = await av_verification(c, m)
+        verified = await xd_verification(c, m)
         if not verified:
             return
 
