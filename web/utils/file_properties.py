@@ -84,6 +84,7 @@ def get_hash(media_msg: Message) -> str:
         return getattr(media, "file_unique_id", "")[:6]
     return "000000"
 
-#Dont Remove My Credit @AV_BOTz_UPDATE 
-#This Repo Is By @BOT_OWNER26 
-#For Any Kind Of Error Ask Us In Support Group @AV_SUPPORT_GROUP
+#Dont Remove My Credit @CloudDroid this code writen by @clouddroid & Praveen(𝕏Ð)Diwakar
+#This Repo Is By @CDNHubs & @TechPraveen
+# For Any Kind Of Error Ask Us In Support Group @CDNChats
+
