@@ -74,7 +74,7 @@ WORKERS = int(getenv('WORKERS', '4'))  # Number of async workers
 MULTI_CLIENT = False  # Enable multi-client handling (if needed)
 
 # 🔧 App/Heroku Configuration
-name = str(environ.get('name', 'avbotz'))  # Project name
+name = str(environ.get('name', 'xdbotz'))  # Project name
 APP_NAME = None
 if 'DYNO' in environ:
     ON_HEROKU = True
