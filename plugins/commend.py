@@ -106,7 +106,7 @@ async def start(client, message):
         file_id = msg.split("-", 1)[1]
         user_id = message.from_user.id
         if not await db.has_premium_access(user_id):
-            verified = await av_x_verification(client, message)
+            verified = await xd_x_verification(client, message)
             if not verified:
                 return  # If not verified, exit
         sts = await message.reply("<b>Please wait...</b>")
