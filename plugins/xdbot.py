@@ -57,7 +57,7 @@ async def is_user_joined(bot, message: Message) -> bool:
 
     return True
     
-async def av_verification(client, message):
+async def xd_verification(client, message):
     user_id = message.from_user.id
     if VERIFY and not await check_verification(client, user_id):
         btn = [[
@@ -79,7 +79,7 @@ async def av_verification(client, message):
         return False
     return True
 
-async def av_x_verification(client, message):
+async def xd_x_verification(client, message):
     user_id = message.from_user.id
     if BATCH_VERIFY and not await check_verification(client, user_id):
         btn = [[
