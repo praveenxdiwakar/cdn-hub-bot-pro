@@ -4,7 +4,7 @@ import os
 import urllib.parse
 import logging
 import aiohttp
-from web.utils.Template import avbotz_template
+from web.utils.Template import xdbotz_template
 from info import *
 from web.server import Webavbot
 from utils import get_size
@@ -86,4 +86,5 @@ async def render_page(id: str, secure_hash: str, src: str = None) -> str:
 #Dont Remove My Credit @CloudDroid this code writen by @clouddroid & Praveen(𝕏Ð)Diwakar
 #This Repo Is By @CDNHubs & @TechPraveen
 # For Any Kind Of Error Ask Us In Support Group @CDNChats
+
 
