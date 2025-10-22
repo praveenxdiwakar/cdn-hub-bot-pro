@@ -27,7 +27,7 @@ BOT_USERNAME = environ.get("BOT_USERNAME", 'cdnhubbot')  # Bot's username
 
 # 🔗 Channel & Support Links
 CHANNEL = environ.get('CHANNEL', 'https://t.me/cdnhubs')  # Updates channel
-SUPPORT = environ.get('SUPPORT', 'https://t.me/+1w6pRd1ScEI4YzQ1')  # Support group
+SUPPORT = environ.get('SUPPORT', 'https://t.me/cdnchats')  # Support group
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/')  # Verification guide link
 HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/')  # File access guide link
 
