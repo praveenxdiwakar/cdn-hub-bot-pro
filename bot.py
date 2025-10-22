@@ -2,9 +2,9 @@ import os, sys, glob, pytz, asyncio, logging, importlib
 from pathlib import Path
 from pyrogram import idle
 
-#Dont Remove My Credit @AV_BOTz_UPDATE 
-#This Repo Is By @BOT_OWNER26 
-# For Any Kind Of Error Ask Us In Support Group @AV_SUPPORT_GROUP
+#Dont Remove My Credit @CloudDroid this code writen by @clouddroid & Praveen(𝕏Ð)Diwakar
+#This Repo Is By @CDNHubs & @TechPraveen
+# For Any Kind Of Error Ask Us In Support Group @CDNChats
 
 logging.basicConfig(
     level=logging.INFO,
@@ -24,9 +24,9 @@ from web.server import Webavbot
 from utils import temp, ping_server
 from web.server.clients import initialize_clients
 
-#Dont Remove My Credit @AV_BOTz_UPDATE 
-#This Repo Is By @BOT_OWNER26 
-# For Any Kind Of Error Ask Us In Support Group @AV_SUPPORT_GROUP
+#Dont Remove My Credit @CloudDroid this code writen by @clouddroid & Praveen(𝕏Ð)Diwakar
+#This Repo Is By @CDNHubs & @TechPraveen
+# For Any Kind Of Error Ask Us In Support Group @CDNChats
 
 ppath = "plugins/*.py"
 files = glob.glob(ppath)
@@ -50,9 +50,9 @@ async def start():
             sys.modules["plugins." + plugin_name] = load
             print("Imported => " + plugin_name)
 
-#Dont Remove My Credit @AV_BOTz_UPDATE 
-#This Repo Is By @BOT_OWNER26 
-# For Any Kind Of Error Ask Us In Support Group @AV_SUPPORT_GROUP
+#Dont Remove My Credit @CloudDroid this code writen by @clouddroid & Praveen(𝕏Ð)Diwakar
+#This Repo Is By @CDNHubs & @TechPraveen
+# For Any Kind Of Error Ask Us In Support Group @CDNChats
     
     if ON_HEROKU:
         asyncio.create_task(ping_server())
@@ -75,12 +75,13 @@ async def start():
     await web.TCPSite(app, bind_address, PORT).start()
     await idle()
 
-#Dont Remove My Credit @AV_BOTz_UPDATE 
-#This Repo Is By @BOT_OWNER26 
-# For Any Kind Of Error Ask Us In Support Group @AV_SUPPORT_GROUP
+#Dont Remove My Credit @CloudDroid this code writen by @clouddroid & Praveen(𝕏Ð)Diwakar
+#This Repo Is By @CDNHubs & @TechPraveen
+# For Any Kind Of Error Ask Us In Support Group @CDNChats
 
 if __name__ == '__main__':
     try:
         loop.run_until_complete(start())
     except KeyboardInterrupt:
         logging.info('----------------------- Service Stopped -----------------------')
+
