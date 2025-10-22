@@ -13,9 +13,9 @@ for mod in ["aiohttp", "pyrogram", "aiohttp.web"]:
     logging.getLogger(mod).setLevel(logging.ERROR)
 
 
-# Dont Remove My Credit @AV_BOTz_UPDATE 
-# This Repo Is By @BOT_OWNER26 
-# For Any Kind Of Error Ask Us In Support Group @AV_SUPPORT_GROUP
+#Dont Remove My Credit @CloudDroid this code writen by @clouddroid & Praveen(𝕏Ð)Diwakar
+#This Repo Is By @CDNHubs & @TechPraveen
+# For Any Kind Of Error Ask Us In Support Group @CDNChats
 
 class WebXBot(Client):
     def __init__(self):
