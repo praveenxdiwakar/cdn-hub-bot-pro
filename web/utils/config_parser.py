@@ -1,9 +1,9 @@
 from os import environ
 from typing import Dict, Optional
 
-# Dont Remove My Credit @AV_BOTz_UPDATE 
-# This Repo Is By @BOT_OWNER26 
-# For Any Kind Of Error Ask Us In Support Group @AV_SUPPORT_GROUP
+#Dont Remove My Credit @CloudDroid this code writen by @clouddroid & Praveen(𝕏Ð)Diwakar
+#This Repo Is By @CDNHubs & @TechPraveen
+# For Any Kind Of Error Ask Us In Support Group @CDNChats
 
 class TokenParser:
     def __init__(self, config_file: Optional[str] = None):
@@ -38,6 +38,7 @@ class TokenParser:
         }
         return self.tokens
 
-# Dont Remove My Credit @AV_BOTz_UPDATE 
-# This Repo Is By @BOT_OWNER26 
-# For Any Kind Of Error Ask Us In Support Group @AV_SUPPORT_GROUP
+#Dont Remove My Credit @CloudDroid this code writen by @clouddroid & Praveen(𝕏Ð)Diwakar
+#This Repo Is By @CDNHubs & @TechPraveen
+# For Any Kind Of Error Ask Us In Support Group @CDNChats
+
