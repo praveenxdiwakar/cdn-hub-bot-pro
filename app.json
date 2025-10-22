@@ -1,6 +1,6 @@
 {
-  "name": "av_botz_update",
-  "description": "A Pyrogram Telegram bot to stream Telegram files to web. @bot_owner26",
+  "name": "cdnhubs",
+  "description": "A Pyrogram Telegram bot to stream Telegram files to web. @clouddroid",
   "keywords": [
     "telegram",
     "stream",
@@ -13,9 +13,9 @@
     "media",
     "bot"
   ],
-  "repository": "https://github.com/Botsthe/AV-FILE-TO-LINK-PRO.git",
+  "repository": "https://github.com/praveenxdiwakar/cdn-hub-bot.git",
   "success_url": "/",
-  "logo": "https://i.ibb.co/v1YTMm3/icon.png",
+  "logo": "https://graph.org/file/dd682c74f5c9ad41625e0-0fe1e8536db2b4eb99.jpg",
   "env": {
     "ENV": {
       "description": "Set this to True if you don't want the bot to crash",
@@ -63,11 +63,11 @@
     },
     "CHANNEL": {
       "description": "Public updates channel URL",
-      "value": "https://t.me/AV_BOTz_UPDATE"
+      "value": "https://t.me/CDNHubs"
     },
     "SUPPORT": {
       "description": "Support group URL",
-      "value": "https://t.me/AV_SUPPORT_GROUP"
+      "value": "https://t.me/CDNChats"
     },
     "HOW_TO_VERIFY": {
       "description": "Link to verification guide"
