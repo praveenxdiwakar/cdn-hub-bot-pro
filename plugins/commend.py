@@ -170,7 +170,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.delete()
     elif query.data == "about":
         buttons = [[
-	    InlineKeyboardButton('💻 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://github.com/Botsthe/AV-FILE-TO-LINK-PRO.git')
+	    InlineKeyboardButton('Cʟᴏᴜᴅ Dʀᴏɪᴅ', url='https://t.me/clouddroid')
 	],[
             InlineKeyboardButton('• ʜᴏᴍᴇ •', callback_data='start'),
 	    InlineKeyboardButton('• ᴄʟᴏsᴇ •', callback_data='close_data')
@@ -266,7 +266,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('❌ ᴄʟᴏsᴇ ❌', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
-        m=await query.message.reply_sticker("CAACAgQAAxkBAAEiLZ9l7VMuTY7QHn4edR6ouHUosQQ9gwACFxIAArzT-FOmYU0gLeJu7x4E") 
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAJroGj41Pgw2lmikJ3xZPjg9M3o9hJtAAL5GQACgtPAV_IREYchiH2yNgQ") 
         await m.delete()
         await query.message.reply_photo(
             photo=(QR_CODE),
@@ -425,7 +425,7 @@ async def delete_files_list(client, message):
 @Client.on_message(filters.command("about"))
 async def about(client, message):
     buttons = [[
-       InlineKeyboardButton('💻 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://github.com/Botsthe/AV-FILE-TO-LINK-PRO.git')
+       InlineKeyboardButton('Cʟᴏᴜᴅ Dʀᴏɪᴅ', url='https://t.me/clouddroid')
     ],[
        InlineKeyboardButton('• ᴄʟᴏsᴇ •', callback_data='close_data')
     ]]
