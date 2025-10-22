@@ -9,7 +9,7 @@ from datetime import datetime
 from web.utils.file_properties import get_hash
 from utils import get_readable_time, verify_user, check_token, get_size
 from web.utils import StartTime, __version__
-from plugins.avbot import is_user_joined, av_verification, av_x_verification
+from plugins.avbot import is_user_joined, xd_verification, xd_x_verification
 import os
 import json
 import asyncio
