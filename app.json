@@ -35,7 +35,7 @@
     },
     "SESSION": {
       "description": "Pyrogram session string or name",
-      "value": "Webavbot"
+      "value": "Webxdbot"
     },
     "BIN_CHANNEL": {
       "description": "File store channel ID"
