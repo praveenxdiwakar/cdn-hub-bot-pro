@@ -3,7 +3,7 @@ import logging
 from info import *
 from pyrogram import Client
 from web.utils.config_parser import TokenParser
-from web.server import multi_clients, work_loads, Webavbot
+from web.server import multi_clients, work_loads, Webxdbot
 
 #Dont Remove My Credit @CloudDroid this code writen by @clouddroid & Praveen(𝕏Ð)Diwakar
 #This Repo Is By @CDNHubs & @TechPraveen
@@ -11,7 +11,7 @@ from web.server import multi_clients, work_loads, Webavbot
 
 async def initialize_clients():
     global MULTI_CLIENT
-    multi_clients[0] = Webavbot
+    multi_clients[0] = Webxdbot
     work_loads[0] = 0
 
     all_tokens = TokenParser().parse_from_env()
