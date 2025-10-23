@@ -36,7 +36,7 @@ async def private_receive_handler(c: Client, m: Message):
             return
 
     file_id = m.document or m.video or m.audio
-    file_name = file_id.file_name if file_id.file_name else f"AV_File_{int(time.time())}.mkv"
+    file_name = file_id.file_name if file_id.file_name else f"XD_File_{int(time.time())}.mkv"
     file_size = get_size(file_id.file_size)
 
     if not await db.has_premium_access(user_id):
