@@ -59,7 +59,7 @@ class WebXBot(Client):
 
 
 # ✅ Global single client instance
-Webavbot = WebXBot()
+Webxdbot = WebXBot()
 
 # ✅ Client management setup
 multi_clients = {}
