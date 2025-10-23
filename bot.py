@@ -20,7 +20,7 @@ from Script import script
 from datetime import date, datetime 
 from aiohttp import web
 from web import web_server, check_expired_premium
-from web.server import Webavbot
+from web.server import Webxdbot
 from utils import temp, ping_server
 from web.server.clients import initialize_clients
 
@@ -30,13 +30,13 @@ from web.server.clients import initialize_clients
 
 ppath = "plugins/*.py"
 files = glob.glob(ppath)
-Webavbot.start()
+Webxdbot.start()
 loop = asyncio.get_event_loop()
 
 async def start():
     print('\n')
     print('Initalizing Your Bot')
-    bot_info = await Webavbot.get_me()
+    bot_info = await Webxdbot.get_me()
     await initialize_clients()
     for name in files:
         with open(name) as a:
@@ -56,8 +56,8 @@ async def start():
     
     if ON_HEROKU:
         asyncio.create_task(ping_server())
-    me = await Webavbot.get_me()
-    temp.BOT = Webavbot
+    me = await Webxdbot.get_me()
+    temp.BOT = Webxdbot
     temp.ME = me.id
     temp.U_NAME = me.username
     temp.B_NAME = me.first_name
@@ -65,10 +65,10 @@ async def start():
     today = date.today()
     now = datetime.now(tz)
     time = now.strftime("%H:%M:%S %p")
-    Webavbot.loop.create_task(check_expired_premium(Webavbot))
-    await Webavbot.send_message(chat_id=LOG_CHANNEL, text=script.RESTART_TXT.format(today, time))
-    await Webavbot.send_message(chat_id=ADMINS[0] ,text='<b>ʙᴏᴛ ʀᴇsᴛᴀʀᴛᴇᴅ !!</b>')
-    await Webavbot.send_message(chat_id=SUPPORT_GROUP, text=f"<b>{me.mention} ʀᴇsᴛᴀʀᴛᴇᴅ 🤖</b>")
+    Webxdbot.loop.create_task(check_expired_premium(Webxdbot))
+    await Webxdbot.send_message(chat_id=LOG_CHANNEL, text=script.RESTART_TXT.format(today, time))
+    await Webxdbot.send_message(chat_id=ADMINS[0] ,text='<b>ʙᴏᴛ ʀᴇsᴛᴀʀᴛᴇᴅ !!</b>')
+    await Webxdbot.send_message(chat_id=SUPPORT_GROUP, text=f"<b>{me.mention} ʀᴇsᴛᴀʀᴛᴇᴅ 🤖</b>")
     app = web.AppRunner(await web_server())
     await app.setup()
     bind_address = "0.0.0.0"
@@ -84,4 +84,5 @@ if __name__ == '__main__':
         loop.run_until_complete(start())
     except KeyboardInterrupt:
         logging.info('----------------------- Service Stopped -----------------------')
+
 
