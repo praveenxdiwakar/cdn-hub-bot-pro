@@ -4,7 +4,7 @@ from typing import Set, Optional, List, Dict
 from Script import script  # Custom script file with caption & other settings
 
 # 🚀 Bot Session and Token Information
-SESSION = environ.get('SESSION', 'Webavbot')  # Pyrogram client session name
+SESSION = environ.get('SESSION', 'Webxdbot')  # Pyrogram client session name
 
 API_ID = int(environ.get('API_ID', ''))  # Telegram API ID
 API_HASH = environ.get('API_HASH', '')  # Telegram API Hash
