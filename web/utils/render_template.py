@@ -6,7 +6,7 @@ import logging
 import aiohttp
 from web.utils.Template import xdbotz_template
 from info import *
-from web.server import Webavbot
+from web.server import Webxdbot
 from utils import get_size
 from web.utils.file_properties import get_file_ids
 from web.server.exceptions import InvalidHash
@@ -18,8 +18,8 @@ from web.server.exceptions import InvalidHash
 async def render_page(id: str, secure_hash: str, src: str = None) -> str:
     # Step 1: Fetch Telegram file and metadata
     try:
-        file = await Webavbot.get_messages(int(BIN_CHANNEL), int(id))
-        file_data = await get_file_ids(Webavbot, int(BIN_CHANNEL), int(id))
+        file = await Webxdbot.get_messages(int(BIN_CHANNEL), int(id))
+        file_data = await get_file_ids(Webxdbot, int(BIN_CHANNEL), int(id))
     except Exception as e:
         logging.error(f"Error fetching file info: {e}")
         raise
@@ -86,6 +86,7 @@ async def render_page(id: str, secure_hash: str, src: str = None) -> str:
 #Dont Remove My Credit @CloudDroid this code writen by @clouddroid & Praveen(𝕏Ð)Diwakar
 #This Repo Is By @CDNHubs & @TechPraveen
 # For Any Kind Of Error Ask Us In Support Group @CDNChats
+
 
 
 
